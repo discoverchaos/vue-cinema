@@ -1,3 +1,162 @@
-@media (min-width: 1920px) {
+@media (max-width: 1170px) {
+    .collections-films {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1130px) {
+    .films-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 770px) {
+    .series-blocks {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .series-block {
+        height: 404px !important;
+    }
+
+    .series-block__title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 630px) {
+    .header-content__title {
+        font-size: 54px;
+    }
+
+    .header-content {
+        padding: 100px 0;
+    }
+
+    .burger {
+        width: 10%;
+        position: absolute;
+        right: 20px;
+        display: block !important;
+        visibility: visible !important;
+        z-index: 9999;
+        align-self: center;
+    }
+
+    .burger img {
+        width: 100%;
+    }
+
+    .burger:hover~.nb-right__list {
+        top: 0;
+    }
+
+    .nb-right__list {
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.647);
+        ;
+        position: absolute;
+        left: 0;
+        top: -100%;
+        z-index: 9998;
+        gap: 50px;
+        transition: 500ms;
+    }
+
+    .nb-right__link {
+        color: white !important;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 540px) {
+    .videofilm {
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 1%, rgba(255, 255, 255, 0) 100.72%);
+    }
+
+    .black-widow__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer div {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 460px) {
+    .black-widow__img {
+        width: 300px;
+    }
+
+    .series-block-main__title {
+        font-size: 30px;
+    }
+
+    .series-block__info {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .series-block__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 384px) {
+    .header-content__btn {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 370px) {
+    .collection-films__block {
+        width: 300px;
+    }
+}
+
+@media (max-width: 365px) {
+    .header-content__title {
+        font-size: 45px;
+    }
     
+    .header-content__btns {
+        gap: 15px;
+    }
+
+    .header-content__btn {
+        padding: 10px 35px;
+    }
+
+    .footer__text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 340px) {
+    .series-block-main__title {
+        font-size: 25px;
+    }
+
+    .series-block__info {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
 }

@@ -50,17 +50,6 @@ body {
     justify-content: space-between;
 }
 
-.nav__block-left {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.nav__block-right {
-    display: flex;
-    align-self: center;
-}
-
 .nb-left__heading {
     font-family: CB;
     font-weight: 700;
@@ -72,6 +61,7 @@ body {
 
 .nb-right__list {
     display: flex;
+    align-items: center;
     gap: 32px;
 }
 
@@ -162,15 +152,17 @@ body {
     color: #000000;
 }
 
+.burger {
+    display: none;
+    visibility: hidden;
+}
+
 .title {
     font-family: CR;
     font-size: 36px;
     line-height: 40px;
     text-transform: capitalize;
     color: #F18128;
-    text-decoration: underline;
-    text-decoration-line: 2px solid #F18128;
-    text-underline-offset: 10px;
     margin-bottom: 50px;
 }
 
@@ -178,15 +170,16 @@ body {
     margin-bottom: 75px;
 }
 
-.main-title {
-    padding: 60px 0 10px;
+.films .title {
+    margin-top: 60px;
     text-transform: capitalize;
     color: #F18128;
     font-family: CR;
     font-size: 36px;
-    border-bottom: 2px solid #F18128;
-    width: max-content;
     margin-bottom: 54px;
+    text-decoration: underline;
+    text-decoration-line: 2px solid #F18128;
+    text-underline-offset: 10px;
 }
 
 .films-cards-card {
